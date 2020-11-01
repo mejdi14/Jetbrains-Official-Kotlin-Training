@@ -3,17 +3,19 @@ import org.hyperskill.hstest.stage.StageTest;
 import org.hyperskill.hstest.testcase.CheckResult;
 import org.hyperskill.hstest.testcase.TestCase;
 
-import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 
 class Clue {
     int age;
     String name;
+    int count;
 
-    Clue(String name, int age) {
+    Clue(String name, int age, int count) {
         this.age = age;
         this.name = name;
+        this.count = count;
     }
 }
 
@@ -26,14 +28,10 @@ public class ChattyBotTest extends StageTest<Clue> {
 
     @Override
     public List<TestCase<Clue>> generate() {
-        return Arrays.asList(
+        return Collections.singletonList(
             new TestCase<Clue>()
-                .setInput("John\n1\n2\n1")
-                .setAttach(new Clue("John", 22)),
-
-            new TestCase<Clue>()
-                .setInput("Nick\n2\n0\n0")
-                .setAttach(new Clue("Nick", 35))
+                .setInput("Marry\n1\n0\n5\n10")
+                .setAttach(new Clue("Marry", 40, 10))
         );
     }
 
@@ -42,9 +40,13 @@ public class ChattyBotTest extends StageTest<Clue> {
 
         String[] lines = reply.trim().split("\n");
 
-        if (lines.length != 7) {
+        int length = 9 + clue.count + 1;
+
+        if (lines.length != length) {
             return CheckResult.wrong(
-                "You should output 7 lines. Lines found: " + lines.length + "\n" +
+                "You should output " + length + " lines " +
+                    "(for the count number " + clue.count +").\n" +
+                    "Lines found: " + lines.length + "\n" +
                     "Your output:\n" +
                     reply
             );
@@ -72,6 +74,20 @@ public class ChattyBotTest extends StageTest<Clue> {
                     "Maybe you calculated the age wrong?\n\n" +
                     "Your last line: \n" + "\"" + lines[6] + "\""
             );
+        }
+
+        for (int i = 0; i < clue.count + 1; i++) {
+            String numLine = lines[i + 8];
+            String actualNum = i + "!";
+
+            if (!numLine.equals(actualNum)) {
+                return CheckResult.wrong(
+                    "Expected " + (i+8) + "-th line: \n" +
+                        "\"" + actualNum + "\"\n" +
+                        "Your "+ (i+8) + "-th line: \n" +
+                        "\"" + numLine + "\""
+                );
+            }
         }
 
         return CheckResult.correct();
