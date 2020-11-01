@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple_Chatty_Bot.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple_Chatty_Bot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/From 0 to 9/Simple_Chatty_Bot.Problems-From_0_to_9.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/From 0 to 9/Simple_Chatty_Bot.Problems-From_0_to_9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/From 0 to 9/Simple_Chatty_Bot.Problems-From_0_to_9.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/From 0 to 9/Simple_Chatty_Bot.Problems-From_0_to_9.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/From 0 to 9/Simple_Chatty_Bot.Problems-From_0_to_9.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/From 0 to 9/Simple_Chatty_Bot.Problems-From_0_to_9.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Simple_Chatty_Bot.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Simple_Chatty_Bot.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Simple_Chatty_Bot.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Simple_Chatty_Bot.util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Simple_Chatty_Bot.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Simple_Chatty_Bot.util.test.iml" />
+    </modules>
+  </component>
+</project>
