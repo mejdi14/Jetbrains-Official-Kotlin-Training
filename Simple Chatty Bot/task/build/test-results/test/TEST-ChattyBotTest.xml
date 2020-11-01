@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ChattyBotTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-01T17:25:26" hostname="MEJDI-LAPTOP" time="0.039">
+<testsuite name="ChattyBotTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-01T17:34:35" hostname="MEJDI-LAPTOP" time="0.053">
   <properties/>
-  <testcase name="start" classname="ChattyBotTest" time="0.039"/>
+  <testcase name="start" classname="ChattyBotTest" time="0.053"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
 Hello! My name is Aid.
@@ -9,6 +9,12 @@ I was created in 2020.
 Please, remind me your name.
 > John
 What a great name you have, John!
+Let me guess your age.
+Enter remainders of dividing your age by 3, 5 and 7.
+> 1
+> 2
+> 1
+Your age is 22; that's a good time to start programming!
 ?[1;31m
 Start test 2?[0m
 Hello! My name is Aid.
@@ -16,6 +22,12 @@ I was created in 2020.
 Please, remind me your name.
 > Nick
 What a great name you have, Nick!
+Let me guess your age.
+Enter remainders of dividing your age by 3, 5 and 7.
+> 2
+> 0
+> 0
+Your age is 35; that's a good time to start programming!
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
