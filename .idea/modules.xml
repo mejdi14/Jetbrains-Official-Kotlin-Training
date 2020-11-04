@@ -3,6 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple_Chatty_Bot.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple_Chatty_Bot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Cutting the fraction/Simple_Chatty_Bot.Problems-Cutting_the_fraction.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Cutting the fraction/Simple_Chatty_Bot.Problems-Cutting_the_fraction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Cutting the fraction/Simple_Chatty_Bot.Problems-Cutting_the_fraction.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Cutting the fraction/Simple_Chatty_Bot.Problems-Cutting_the_fraction.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Cutting the fraction/Simple_Chatty_Bot.Problems-Cutting_the_fraction.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Cutting the fraction/Simple_Chatty_Bot.Problems-Cutting_the_fraction.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/First, second, third/Simple_Chatty_Bot.Problems-First,_second,_third.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/First, second, third/Simple_Chatty_Bot.Problems-First,_second,_third.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/First, second, third/Simple_Chatty_Bot.Problems-First,_second,_third.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/First, second, third/Simple_Chatty_Bot.Problems-First,_second,_third.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/First, second, third/Simple_Chatty_Bot.Problems-First,_second,_third.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/First, second, third/Simple_Chatty_Bot.Problems-First,_second,_third.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/From 0 to 9/Simple_Chatty_Bot.Problems-From_0_to_9.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/From 0 to 9/Simple_Chatty_Bot.Problems-From_0_to_9.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/From 0 to 9/Simple_Chatty_Bot.Problems-From_0_to_9.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/From 0 to 9/Simple_Chatty_Bot.Problems-From_0_to_9.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/From 0 to 9/Simple_Chatty_Bot.Problems-From_0_to_9.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/From 0 to 9/Simple_Chatty_Bot.Problems-From_0_to_9.test.iml" />
